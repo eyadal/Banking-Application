@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Fresh start!</title>
+</head>
+<body>
+    <h1>The Swedish Bank!</h1>
+    <form>
+        <label>Name: </label>
+        <input id='nameInputEl' />
+        <label>addAmount: </label>
+        <input id='addAmountInputEl' />
+        <input type="button" id="addIncomeBtn" class="btn btn-primary" value="Add Income">
+        <input type="button" id="addExpenseBtn" class="btn btn-primary" value="Add Expense">
+        <input type="button" id="balanceBtn" class="btn btn-info" value="View Balance">
+        <input type="button" id="resetBtn" class="btn btn-danger" value="Reset Account">
+    </form> 
+    <div id="myBalance"></div>
+</body>
+</html>
